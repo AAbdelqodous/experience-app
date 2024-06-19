@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/users")
 public class UserController {
 
-    @PostMapping("/signup")
+    /*@PostMapping("/signup")
     public ResponseEntity<User> registerUser(@RequestBody User user) {
         // Logic to register user
     }
@@ -35,5 +35,5 @@ public class UserController {
     @GetMapping
     public ResponseEntity<List<User>> getAllUsers() {
         // Logic to get all users (admin only)
-    }
+    }*/
 }
